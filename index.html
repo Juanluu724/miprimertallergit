@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(120deg, #232526 0%, #414345 100%);
+            color: #f5f5f5;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 40px 0 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        
+        nav {
+            margin-top: 20px;
+        }
+        
+        nav a {
+            color: #00e6d3;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        
+        nav a:hover {
+            color: #fff;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgba(30, 30, 30, 0.95);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+            padding: 40px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #00e6d3;
+            border-bottom: 2px solid #00e6d3;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li::before {
+            content: "✔️";
+            margin-right: 10px;
+            color: #00e6d3;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #aaa;
+            background: rgba(0, 0, 0, 0.6);
+            border-top: 1px solid #222;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portafolio Pro</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>
+                ¡Hola! Soy un desarrollador web apasionado por la tecnología y la innovación. Me encanta crear soluciones creativas y eficientes usando las últimas tecnologías.
+            </p>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <ul>
+                <li>Sitio web interactivo para una tienda online</li>
+                <li>Aplicación de gestión de tareas con JavaScript</li>
+                <li>Blog personal con integración de redes sociales</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes escribirme a <a href="mailto:correo@ejemplo.com" style="color:#00e6d3;">correo@ejemplo.com</a></p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Portafolio Pro. Todos los derechos reservados.
+    </footer>
+</body>
+
+</html>
